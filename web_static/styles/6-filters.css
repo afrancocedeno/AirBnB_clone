@@ -1,0 +1,83 @@
+* {
+	box-sizing: border-box;
+}
+
+.filters {
+	width: 100%;
+	height: 70px;
+	border: 1px #DDDDDD solid;
+	border-radius: 4px;
+	align-items: center;
+	display: flex;
+}
+
+/* I tried a new common tag "filter" but call both filters with comma ","*/
+.locations, .amenities {
+	width: 25%;
+	height: 100%;
+}
+
+.locations {
+	border-right: #DDDDDD solid 1px;
+}
+
+div {
+	display: block;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+.filters h3 {
+	font-weight: 600;
+	margin-bottom: 0;
+	padding-left: 50px;
+}
+
+.filters h4 {
+	font-weight: 400;
+	font-size: 14px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding-left: 50px;
+}
+
+.button {
+	margin-right: 30px;
+	margin-left: auto;
+	font-size: 18px;
+	background-color: #FF5A5F;
+	border-width: 0;
+	color: #FFFFFF;
+	height: 48px;
+	width: 20%;
+	border-radius: 4px;
+	opacity: 100%;
+	cursor: pointer;
+	/* change opacity to 90% when the mouse is on the button */
+}
+
+.button:hover {
+	opacity: 90%;
+}
+
+.popover {
+	margin: 0%;
+	padding: 30px 50px;
+	background-color: #FAFAFA;
+	width: 100%;
+	border: #DDDDDD 1px;
+	border-radius: 4px;
+	display: none;
+}
+
+.locations:hover .popover, .amenities:hover .popover {
+	display: block;
+}
+
+ul {
+	list-style:none;
+}
+/* make the content fit the container */
+/* use a size proporcional to size */

@@ -1,0 +1,59 @@
+.filters {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border: 1px #DDDDDD solid;
+	border-radius: 4px;
+	align-items: center;
+	height: 70px;
+}
+
+/* I tried a new common tag "filter" but call both filters with comma ","*/
+.locations, .amenities {
+	display: inline-block;
+	flex-direction: row;
+	width: 25%;
+	height: 100%;
+	padding: 0 50px;
+}
+
+.locations {
+	border-right: #DDDDDD solid 1px;
+}
+
+.filters h3 {
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.filters h4 {
+	font-weight: 400;
+	font-size: 14px;
+	margin-top: 5px;
+
+}
+
+button {
+	right: 30px;
+	top: 50%;
+	position: absolute;/* 30px */
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	display: inline-block;
+	font-size: 18px;
+	background-color: #FF5A5F;
+	border-width: 0;
+	color: #FFFFFF;
+	height: 48px;
+	width: 20%;
+	border-radius: 4px;
+	opacity: 100%;
+	/* change opacity to 90% when the mouse is on the button */
+}
+
+.button:hover {
+	opacity: 90%;
+}
+
+/* make the content fit the container */
+/* use a size proporcional to size */
