@@ -15,3 +15,4 @@ first steps in HTML
 to fix:
 - popover opacy
 - bottom line space with the footer
+- why to use a background image instead of img tag
