@@ -11,7 +11,7 @@
 
 .places article {
 	width: 390px;
-	padding: 20px;
+	padding: 0px;
 	margin: 20px;
 	border: #FF5A5F 1px solid;
 	border-radius: 4px;
@@ -28,8 +28,8 @@
 /* same level as the place name */
 	position: absolute;
 	display: flex;
-	top: 0;
-	right: 0;
+	top: 15px;
+	right: 15px;
 	color: #FF5A5F;
 	border: #FF5A5F 4px solid;
 	/* border radius: the half of the height. source: https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius */
