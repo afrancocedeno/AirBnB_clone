@@ -7,3 +7,11 @@ first steps in HTML
 * fixed - it will always remain at the same place, all properties allowed.
 * absolute - related with its parent block if not a parent block uses 
 * sticky -
+
+* Task 8
+* * flex box
+* * common divs on css
+
+to fix:
+- popover opacy
+- bottom line space with the footer
