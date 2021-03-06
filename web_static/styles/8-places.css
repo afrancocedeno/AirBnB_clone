@@ -24,7 +24,7 @@
 	/* center: horizontally; */
 }
 
-.places .price_by_night {
+.price_by_night {
 /* same level as the place name */
 	position: absolute;
 	display: flex;
@@ -32,20 +32,58 @@
 	right: 0;
 	color: #FF5A5F;
 	border: #FF5A5F 4px solid;
-	border-radius: 50%;
+	/* border radius: the half of the height. source: https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius */
+	border-radius: 30px;
 	min-width: 60px;
 	height: 60px;
 	font-size: 30px;
 	justify-content: center;
 	align-items: center;
-
 	/* align: the top right (with space) */
 }
 
-.places .information {
+.information {
 	height: 80px;
 	border-top: #DDDDDD 1px solid;
 	border-bottom: #DDDDDD 1px solid;
-/* contains (align vertically): */
+	/* contains (align vertically): */
+	/* why display flex ? */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
+/* optimizing code lines using div */
+.information div {
+	width: 100px;
+	/* background image height the same as the container */
+	height: 100%;
+	background-repeat: no-repeat;
+	/* background-position: place it at the top of the container */
+	background-position: top;
+	/* padding-top: position text behind background */
+	padding-top: 50px;
+
+}
+
+.information .max_guest {
+	background-image:url(../images/icon_group.png);
+}
+
+.information .number_rooms {
+	background-image:url(../images/icon_bed.png);
+}
+
+.information .number_bathrooms {
+	background-image:url(../images/icon_bath.png);
+}
+
+.user {
+/* text-align: justify content does not work, user is refering to text directly */
+	text-align: left;
+	margin: 20px 0px 5px 0px;
+}
+
+.description {
+	text-align: left;
 }
