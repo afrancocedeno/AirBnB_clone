@@ -1,3 +1,6 @@
+keywords
+box model, responsive
+
 # How can I see my .html file in the browser?
 first steps in HTML
 # <element attribute="valie"></element>
