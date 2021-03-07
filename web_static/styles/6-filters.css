@@ -70,6 +70,8 @@ h2 {
 	border: #DDDDDD 1px;
 	border-radius: 4px;
 	display: none;
+	position: relative;
+	z-index: 1;
 }
 
 .locations:hover .popover, .amenities:hover .popover {
