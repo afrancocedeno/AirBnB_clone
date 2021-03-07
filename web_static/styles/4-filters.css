@@ -1,16 +1,15 @@
 .filters {
 	width: 100%;
-	height: 100%;
+	height: 70px;
 	border: 1px #DDDDDD solid;
 	border-radius: 4px;
+	align-items: center;
+	display: flex;
 }
 
-button {
-	right: 30px;
-	top: 50%;
-	position: absolute;/* 30px */
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
+.button {
+	margin-right: 30px;
+	margin-left: auto;
 	display: inline-block;
 	font-size: 18px;
 	background-color: #FF5A5F;
@@ -21,9 +20,9 @@ button {
 	border-radius: 4px;
 	opacity: 100%;
 	cursor: pointer;
-	/* change opacity to 90% when the mouse is on the button */
 }
 
 .button:hover {
 	opacity: 90%;
 }
+
